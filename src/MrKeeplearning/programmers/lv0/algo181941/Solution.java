@@ -1,0 +1,11 @@
+package MrKeeplearning.programmers.lv0.algo181941;
+
+class Solution {
+    public String solution(String[] arr) {
+        StringBuilder sb = new StringBuilder();
+        for (String s : arr) {
+            sb.append(s);
+        }
+        return sb.toString();
+    }
+}
