@@ -24,6 +24,7 @@ public class Main {
     public static void dfs(int idx) {
         visited[idx] = true;
         // dfs함수가 호출되는 횟수만큼 몇 개의 컴퓨터가 연결되었는지를 의미한다.
+        // answer를 여기서 증가시키면 answer라는 변수는 n번과 연결되어 있는 컴퓨터의 개수를 잘 가지고 있을 것이다.
         answer++;
         // 현재의 인덱스를 기준으로 나와 연결되어 있는 아이가 1번부터 N번까지 누가 있는지,
         // 그리고 연결되어 있다면 그 다음 재귀함수를 호출하기 위해서 이러한 동작을 하는 것이다.
